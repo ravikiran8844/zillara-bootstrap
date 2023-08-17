@@ -1,0 +1,19 @@
+@media(min-width:992px){
+    .navbar-brand{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+.nav-link{
+    color: #282828;
+    font-family: Optima LT Pro;
+    font-size: 20px !important;
+}
+.navbar{
+    min-height: 100px;
+    position: relative;
+    background: #F6F6F6;
+}

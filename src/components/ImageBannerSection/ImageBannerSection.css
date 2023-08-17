@@ -10,6 +10,13 @@
 
 }
 
+/* @media(min-width:768px){
+    .image-banner-section_content{
+        align-items: flex-end;
+    
+    }
+} */
+
 .image-banner-section{
     position: relative;
     height: 100%;
@@ -32,4 +39,18 @@
 .image-banner-section_btn{
     background: #2D2D2D;
     font-family: Sharp Sans;
+}
+
+
+
+.image-banner-section_image{
+    width: 100vw;
+    object-fit: cover;
+    min-height: 545px;
+    object-position:left;
+  }
+@media(min-width:768px){
+    .image-banner-section_image{
+        object-position:center;
+      }
 }

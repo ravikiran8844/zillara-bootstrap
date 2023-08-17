@@ -36,7 +36,7 @@ body{
 color: #FFF;
 text-align: center;
 font-family: Sharp Sans;
-font-size: 18px;
+font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 100%; 
@@ -109,8 +109,4 @@ font-family: Cotta;
  object-fit: cover;
 
 }
-.image-banner-section_image{
-  width: 100vw;
-  object-fit: cover;
-  min-height: 545px;
-}
+
