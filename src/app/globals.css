@@ -1,107 +1,116 @@
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
+@font-face {
+  font-family: Canela Trial;
+   src: url('/fonts/Canela-Trial.woff') format('woff2');
+    font-weight: normal;
+   font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
-  }
+@font-face {
+  font-family: Cotta;
+   src: url('/fonts/cotta-free.woff') format('otf');
+    font-weight: normal;
+   font-display: swap;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+@font-face {
+  font-family: 'Optima nova LT Pro';
+  src: url('/fonts/OptimaNovaLTProRegular.woff') format('woff2');
+  font-weight: normal;
+   font-display: swap;
+}
+@font-face {
+  font-family: 'Optima nova LT Pro';
+  src: url('/fonts/Sharp-Sans.woff') format('woff2');
+  font-weight: normal;
+   font-display: swap;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+body{
+  background: #F6F6F6 !important;
+}
+.announcement-bar{
+  background: #9F212C;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.announcement-bar_text{
+color: #FFF;
+text-align: center;
+font-family: Sharp Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; 
+letter-spacing: 1.08px;
 }
 
-a {
-  color: inherit;
+
+.footer-section{
+  background-color: #fff;
+}
+.footer-links-title{
+  color: #2D2D2D;
+  font-family: Cotta;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%; /* 32.89px */
+}
+
+.footer-links-text{
+  color: #686868;
+  font-family: Optima LT Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 247.5%; /* 49.5px */
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.footer-text{
+  color: #2D2D2D;
+  font-family: Optima LT Pro;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 29.4px */
+}
+
+
+
+
+
+.main-slider_item{
+  position: relative;
+  height: 100%;
+}
+
+.main-slider_item_content{
+  max-width: 488px;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 40px;  
+}
+.main-slider_item-section_heading{
+  color: #2D2D2D;
+font-family: Cotta;
+}
+
+.main-slider_item-section_text{
+  color: #111;
+  font-family: Optima LT Pro;
+}
+.main-slider-section img{
+ min-height: 650px;
+ width: 100vw;
+ object-fit: cover;
+
+}
+.image-banner-section_image{
+  width: 100vw;
+  object-fit: cover;
+  min-height: 545px;
 }
