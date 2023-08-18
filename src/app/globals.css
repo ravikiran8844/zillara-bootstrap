@@ -180,3 +180,39 @@ font-family: Cotta;
 
 }
 
+
+
+
+.search-input{
+  border-bottom: 1px solid #B3B3B3;
+  padding-bottom: 10px;
+}
+.search-input input, .search-input input::placeholder{
+  color: #B3B3B3;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.map-section .form-control:focus{
+  outline: none;
+  border: none;
+  box-shadow: none !important;
+}
+.search-icon-btn{
+  bottom: 15px;
+}
+.find-store-btn{
+  border-radius: 31px !important;
+  border: 1px solid #969696 !important;
+  background: #FFF !important;
+  color: #2D2D2D;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  cursor: default;
+}

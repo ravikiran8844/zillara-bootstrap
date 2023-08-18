@@ -102,10 +102,15 @@ const Footer = () => {
                         Swarna Shakti App Download
                         </div>
                         <div className='mb-2'>
+                        <a target="_blank" href="https://apps.apple.com/id/app/jewelone/id1507128724">
                             <Image className='img-fluid' width={182} height={60} src="/app-store.png" alt='app store logo' />
+                        </a>
                         </div>
                         <div>
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.jewelone.winchit">
                             <Image className='img-fluid' width={182} height={60} src="/google-play.png" alt='google play logo' />
+                            </a>
+
                         </div>
                     </div>     
                 </div>      
