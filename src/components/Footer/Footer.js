@@ -3,6 +3,8 @@ import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
+const year=new Date().getFullYear()
+
   return (
     <footer className='footer-section py-4'>
       <div className='container'>
@@ -173,7 +175,7 @@ const Footer = () => {
                     </div>
                     <div className='col-12 col-lg-7 mb-3 d-flex justify-content-lg-end align-items-lg-end'>
                         <div className='footer-copyright-text'>
-                        © 2023 Zilara Silver Redefined. All Rights Reserved.
+                        © {year} Zilara Silver Redefined. All Rights Reserved.
                         </div>
                     </div>
                 </div>        
