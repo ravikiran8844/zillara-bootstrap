@@ -6,7 +6,7 @@ import Link from 'next/link'
 const MapSection = () => {
   return (
     <div className='map-section py-5'>
-      <div className='container px-0'>
+      <div className='container px-lg-0'>
         <div className='row g-0'>
         <div className='col-12 col-lg-6 mb-5'>
         <div className="d-flex flex-row position-relative search-input">
