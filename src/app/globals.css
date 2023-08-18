@@ -27,6 +27,7 @@
 
 body{
   background: #F6F6F6 !important;
+  overflow-x: hidden;
 }
 .announcement-bar{
   background: #9F212C;

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className='footer-section py-4'>
       <div className='container'>
-        <div className='row mt-5'>
+        <div className='row g-0 mt-5'>
             <div className='col-12 col-lg-4 mb-4'>
                 <div>
                     <div className='mb-3'>
@@ -114,7 +114,7 @@ const Footer = () => {
                         </div>
                     </div>     
                 </div>      
-                <div className='row mt-3'>
+                <div className='row  mt-3'>
                     <div className='col-12 col-lg-5 mb-3'>
                         <div className='footer-links-title mb-3'>
                         Follow Us

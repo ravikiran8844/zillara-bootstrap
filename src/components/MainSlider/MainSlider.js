@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 const MainSlider = () => {
   return (
-    <div className='main-slider-section '>
+    <div className='main-slider-section container-fluid px-0'>
     <Splide options={{
       arrows:false
     }} aria-label="My Favorite Images">
