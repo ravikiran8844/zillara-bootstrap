@@ -43,6 +43,22 @@ line-height: 100%;
 letter-spacing: 1.08px;
 }
 
+.main-slider-section .splide__pagination__page{
+    width: 30px !important;
+    height: 6px !important;
+    border-radius: 0 !important;
+    margin: 5px !important;
+    background-color: #CBCBCB !important;
+}
+.main-slider-section .splide__pagination__page.is-active {
+  background-color: #000 !important;
+}
+
+.zillara-logo{
+  max-width: 220px;
+max-height: 58px;
+object-fit: contain;
+}
 
 .footer-section{
   background-color: #fff;
@@ -74,9 +90,63 @@ letter-spacing: 1.08px;
   font-weight: 400;
   line-height: 140%; /* 29.4px */
 }
+.footer-copyright-text{
+  color: #2D2D2D;
+  font-family: Cotta;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
+}
+.footer-twitter-icon{
+  background: #1DA1F2;
+  padding: 10px;
+}
+.footer-block-items{
+  border-bottom: 1px solid #C1C1C1;
+}
+.footer-input-group{
+  padding: 5px;
+    border-radius: 8.728px;
+    border: 0.97px solid #C1C1C1;
+    background: #FFF!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-input {
+  background: transparent;
+  color: #B8B8B8!important;
+  font-size: 18px;
+  font-family: Optima LT Pro;
+  border: none;
+  outline: none;
+}
+.subscribe-btn {
+  border-radius: 8.728px;
+  background: #9F212C !important;
+  color: #FFF !important;
+  font-family: Optima LT Pro !important;
+  text-transform: uppercase;
+}
+.footer-input-group .form-control{
+border: none;
+outline: none;
+}
 
-
-
+.footer-input-group .form-control:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+  }
+@media(min-width:768px){
+  .footer-block{
+    border-right: 1px solid #C1C1C1;
+    }
+    .footer-block:last-child{
+      border-right: none;
+      }
+}
 
 
 .main-slider_item{

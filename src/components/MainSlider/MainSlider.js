@@ -10,7 +10,9 @@ import Image from 'next/image';
 const MainSlider = () => {
   return (
     <div className='main-slider-section '>
-    <Splide aria-label="My Favorite Images">
+    <Splide options={{
+      arrows:false
+    }} aria-label="My Favorite Images">
     <SplideSlide>
              <div className='main-slider_item'>
                     <Image className='main-slider_image img-fluid' width={1920} height={740} src="/slider-1.webp" alt="Image Banner"/>

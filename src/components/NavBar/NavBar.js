@@ -12,7 +12,7 @@ function CollapsibleExample() {
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
       <Navbar.Brand href="#home">
-      <Image className='img-fluid' width={260} height={50} src="/zillara_logo.png" alt='zillara logo' />
+      <Image className='img-fluid zillara-logo' width={260} height={50} src="/zillara_logo.png" alt='zillara logo' />
       </Navbar.Brand>
 
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -28,9 +28,26 @@ function CollapsibleExample() {
           <Nav className="mx-auto">
           </Nav>
           <Nav>
-            <Nav.Link href="#">STORES</Nav.Link>
-            <Nav.Link href="#">ACCOUNT
-            </Nav.Link>
+            <Nav.Link href="#">
+              <div>
+                <div className='d-none d-lg-block text-lg-center'>
+                  <Image src="/stores.png" height={35}  width={35} alt='STORES' />               
+                </div>
+                <div>
+                STORES
+                </div>
+              </div>
+              </Nav.Link>
+              <Nav.Link href="#">
+              <div>
+                <div className='d-none d-lg-block text-lg-center'>
+                  <Image src="/account.png" height={35}  width={35} alt='STORES' />               
+                </div>
+                <div>
+                ACCOUNT
+                </div>
+              </div>
+              </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
